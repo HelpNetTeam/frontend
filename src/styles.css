@@ -1,0 +1,133 @@
+/** General */
+a {
+  color: #297cbb;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.transition-3d-activity-hover {
+  transition: all 0.2s ease-in-out;
+}
+.transition-3d-activity-hover:hover,
+.transition-3d-activity-hover:focus {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.text-black {
+  color: #3b444f;
+}
+.min-h-350 {
+  min-height: 21.875rem !important;
+}
+
+.bg-img-activity {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.rounded-border {
+  border-radius: 0.188rem;
+}
+[class*="gradient-overlay-half"] {
+  position: relative;
+  z-index: 1;
+}
+
+[class*="gradient-overlay-half"]::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  transition: all 0.2s ease-in-out;
+}
+
+.gradient-overlay-half-bg-gradient::before {
+  background: linear-gradient(180deg, #1e2022 2%, transparent 70%);
+}
+
+.rounded-border::before,
+.rounded-border::after {
+  border-radius: 0.188rem;
+}
+
+/** activities **/
+.text-title {
+  line-height: 1;
+  font-weight: 500 !important;
+  font-size: 1.313rem;
+  color: #fff;
+  position: relative;
+}
+.text-title::after {
+  content: "";
+  height: 1px;
+  width: 50px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+a.text-title:hover,
+a.text-title:focus {
+  text-decoration: none;
+  color: #d9d9d9 !important;
+}
+.text-white {
+  color: #fff;
+}
+.activity-dropdown {
+  display: none;
+}
+.dropdown:hover .activity-dropdown {
+  display: block;
+}
+
+.activity-dropdown a {
+  font-size: 1rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #fff;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #67747c;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #297cbb;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.activity-dropdown a {
+    font-size: 1rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #fff;
+}
+
+/** Section  */
+.section-title::after {
+  display: block;
+  width: 2.5rem;
+  height: 0.125rem;
+  background-color: #297cbb;
+  content: " ";
+  margin: 1.5rem auto 0;
+}

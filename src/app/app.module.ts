@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FeedComponent } from './components/pages/feed/feed.component';
 import { ProfileComponent } from './components/pages/profile/profile.component';
+import { ActivityComponent } from './components/activity/activity.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FeedComponent,
-    ProfileComponent
+    ProfileComponent,
+    ActivityComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
