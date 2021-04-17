@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: "http://96.126.120.66/",
+  baseUrl: "http://apihelpnet.develstack.com/",
 
 };
 

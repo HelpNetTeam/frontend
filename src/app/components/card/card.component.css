@@ -1,0 +1,47 @@
+.media-support-info {
+  flex: 1;
+}
+
+.media-support-user-img img {
+  height: 60px;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+h5 {
+  font-size: 1.2em;
+  color: #3f414d;
+}
+
+.media-support-info p {
+  line-height: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+.avatar-35 {
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  font-size: 0.5rem;
+}
+
+ul.post-comments {
+  list-style: none;
+}
+
+.comment-activity > a {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: #297cbb;
+  text-decoration: none;
+}

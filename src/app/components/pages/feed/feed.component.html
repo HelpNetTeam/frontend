@@ -1,24 +1,58 @@
-<div class=" border-bottom border-color-8">
-  <div class="container space-bottom-1 space-top-lg-3">
+<app-navbar></app-navbar>
 
-    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mt-4">
-      <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">Top Activities</h2>
-    </div>
+<div class="content-page">
 
-    <div class="row mb-1">
-      <div class="col-md-6 mb-3 mb-md-4">
-        <app-activity></app-activity>
+  <div class="border-bottom border-color-8">
+    <div class="container space-bottom-1 space-top-lg-3">
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mt-4">
+        <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">Top Activities</h2>
       </div>
 
-      <div class="col-md-6 mb-3 mb-md-4">
-        <app-activity></app-activity>
+      <div class="row mb-1">
+        <div class="col-md-3 mb-3 mb-md-4">
+          <app-activity></app-activity>
+        </div>
+
+        <div class="col-md-3 mb-3 mb-md-4">
+          <app-activity></app-activity>
+        </div>
+
+        <div class="col-md-3 mb-3 mb-md-4">
+          <app-activity></app-activity>
+        </div>
+
+
+        <div class="col-md-3 mb-3 mb-md-4">
+          <app-activity></app-activity>
+        </div>
+
+
       </div>
-
-      <!-- Second Line
-        <div class="col-md-6 col-xl-3 mb-3 mb-md-4">
-        <app-activity></app-activity>
-      </div> -->
-
     </div>
   </div>
-</div>
+
+
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-lg-8 row m-0 p-0">
+
+
+
+        <div class="col-sm-12">
+          <app-card></app-card>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+
+        <app-mini-card [titleCard]="'Projects'" [typeCard]="'projects'"></app-mini-card>
+        <app-mini-card [titleCard]="'Organizations'" [typeCard]="'organizations'"></app-mini-card>
+
+
+
+      </div>
+    </div>
+
+  </div>

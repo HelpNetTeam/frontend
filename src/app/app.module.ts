@@ -7,7 +7,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FeedComponent } from './components/pages/feed/feed.component';
 import { ProfileComponent } from './components/pages/profile/profile.component';
 import { ActivityComponent } from './components/activity/activity.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { CardComponent } from './components/card/card.component';
+import { MiniCardComponent } from './components/mini-card/mini-card.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +17,17 @@ import { HttpClientModule } from '@angular/common/http'
     NavbarComponent,
     FeedComponent,
     ProfileComponent,
-    ActivityComponent
+    ActivityComponent,
+    CardComponent,
+    MiniCardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {
+}
