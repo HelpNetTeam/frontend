@@ -1,7 +1,10 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './styles/index.scss';
+
 /** buttons **/
 .btn-primary {
-  background-color: #297cbb;
-  border-color: #297cbb;
+  background-color: $primary-color;
+  border-color: $primary-color;
 }
 
 /** General */
@@ -15,7 +18,7 @@ body {
   background-color: #fafafb;
 }
 a {
-  color: #297cbb;
+  color: $primary-color;
   text-decoration: none;
   background-color: transparent;
 }
@@ -231,7 +234,7 @@ a.text-title:focus {
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #297cbb;
+  color: $primary-color;
   text-decoration: none;
   background-color: transparent;
 }
@@ -305,7 +308,7 @@ a.text-title:focus {
   z-index: 3;
   font-weight: 400 !important;
   color: #fff;
-  background-color: #297cbb;
+  background-color: $primary-color;
 
   border-radius: 10rem;
   display: inline-block;
@@ -325,7 +328,7 @@ a.text-title:focus {
   display: block;
   width: 2.5rem;
   height: 0.125rem;
-  background-color: #297cbb;
+  background-color: $primary-color;
   content: " ";
   margin: 1.5rem auto 0;
 }
@@ -405,7 +408,7 @@ a.text-title:focus {
   font-size: 18px;
   padding: 0 15px;
   line-height: 73px;
-  color: #297cbb;
+  color: $primary-color;
   display: block;
   min-height: 75px;
 }
@@ -477,7 +480,7 @@ a.text-title:focus {
 .card-header .dropdown-bg {
   background: #f5fbff;
   padding: 8px 15px;
-  color: #297cbb;
+  color: $primary-color;
   border-radius: 15px;
 }
 .card-header .dropdown-menu {
@@ -502,7 +505,7 @@ a.text-title:focus {
 .dropdown-menu .dropdown-item:focus,
 .dropdown-menu .dropdown-item:hover {
   background: transparent;
-  color: #297cbb;
+  color: $primary-color;
 }
 
 .card-body {

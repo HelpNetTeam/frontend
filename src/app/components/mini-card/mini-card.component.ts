@@ -5,7 +5,7 @@ import { ProjectService } from 'src/app/services/project.service';
 @Component({
   selector: 'app-mini-card',
   templateUrl: './mini-card.component.html',
-  styleUrls: ['./mini-card.component.css'],
+  styleUrls: ['./mini-card.component.scss'],
 })
 export class MiniCardComponent implements OnInit {
   @Input() titleCard: string;

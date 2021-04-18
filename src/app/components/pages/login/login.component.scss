@@ -1,3 +1,5 @@
+@import '../../../../styles/index.scss';
+
 #container-inside {
   position: relative;
   min-width: 960px;
@@ -10,11 +12,11 @@
 }
 
 .sign-in-page {
-  background: #297cbb;
-  background: -moz-linear-gradient(-45deg, #297cbb 0%, #0076e5 100%);
-  background: -webkit-linear-gradient(-45deg, #297cbb 0%, #0076e5 100%);
-  background: linear-gradient(135deg, #297cbb 0%, #0076e5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#297cbb', endColorstr='#0076e5', GradientType=1);
+  background: $primary-color;
+  background: -moz-linear-gradient(-45deg, $primary-color 0%, #0076e5 100%);
+  background: -webkit-linear-gradient(-45deg, $primary-color 0%, #0076e5 100%);
+  background: linear-gradient(135deg, $primary-color 0%, #0076e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primary-color', endColorstr='#0076e5', GradientType=1);
   position: relative;
   overflow: hidden;
   height: 100vh;
@@ -22,6 +24,7 @@
   margin: 0px auto;
   padding: 0px auto;
 }
+
 .sign-in-detail {
   padding: 100px;
   height: 100vh;
@@ -31,6 +34,7 @@
   display: inline-block;
   width: 100%;
 }
+
 .item img {
   border-radius: 10px;
 }
@@ -42,6 +46,7 @@
 .form-group {
   margin-bottom: 1rem;
 }
+
 .buttons-login {
   display: flex;
   flex-direction: row;
@@ -54,13 +59,13 @@
 }
 
 .sign-info {
-    border-top: 1px solid #f1f1f1;
-    margin-top: 30px;
-    padding-top: 20px;
+  border-top: 1px solid #f1f1f1;
+  margin-top: 30px;
+  padding-top: 20px;
 }
 
 .social-media {
-    margin: 0;
-    padding: 0;
-    float: right;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
