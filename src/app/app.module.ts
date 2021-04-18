@@ -10,6 +10,7 @@ import { ActivityComponent } from './components/activity/activity.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CardComponent } from './components/card/card.component';
 import { MiniCardComponent } from './components/mini-card/mini-card.component';
+import { LoginComponent } from './components/pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MiniCardComponent } from './components/mini-card/mini-card.component';
     ActivityComponent,
     CardComponent,
     MiniCardComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,66 @@
+#container-inside {
+  position: relative;
+  min-width: 960px;
+  max-width: 1280px;
+  height: auto;
+  min-height: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+  overflow: visible;
+}
+
+.sign-in-page {
+  background: #297cbb;
+  background: -moz-linear-gradient(-45deg, #297cbb 0%, #0076e5 100%);
+  background: -webkit-linear-gradient(-45deg, #297cbb 0%, #0076e5 100%);
+  background: linear-gradient(135deg, #297cbb 0%, #0076e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#297cbb', endColorstr='#0076e5', GradientType=1);
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+.sign-in-detail {
+  padding: 100px;
+  height: 100vh;
+}
+
+.sign-in-logo {
+  display: inline-block;
+  width: 100%;
+}
+.item img {
+  border-radius: 10px;
+}
+
+.sign-in-from {
+  padding: 0 60px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+.buttons-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.c-checkbox {
+  margin-right: 0.25rem;
+}
+
+.sign-info {
+    border-top: 1px solid #f1f1f1;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.social-media {
+    margin: 0;
+    padding: 0;
+    float: right;
+}

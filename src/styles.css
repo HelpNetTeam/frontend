@@ -1,5 +1,16 @@
-/** General */
+/** buttons **/
+.btn-primary {
+  background-color: #297cbb;
+  border-color: #297cbb;
+}
 
+/** General */
+.w100 {
+  width: 100% !important;
+}
+.d-inline-block {
+  display: inline-block!important;
+}
 body {
   background-color: #fafafb;
 }
@@ -7,6 +18,16 @@ a {
   color: #297cbb;
   text-decoration: none;
   background-color: transparent;
+}
+
+.form-control {
+  height: 45px;
+  line-height: 45px;
+  background: transparent;
+  border: 1px solid #f1f1f1;
+  font-size: 14px;
+  color: #a09e9e;
+  border-radius: 10px;
 }
 
 h1,
